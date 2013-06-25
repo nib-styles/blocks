@@ -8,7 +8,7 @@
 // Styleguide 4.4.0
 
 @function blocks-image-url($path) {
-  @return "../components/nib-styles-blocks/images/#{$path}");
+  @return "../components/nib-styles-blocks/images/#{$path}";
 }
 
 /* Grey Striped block */
