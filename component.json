@@ -1,0 +1,14 @@
+{
+  "name": "blocks",
+  "descriptions": "Block and box styles",
+  "main": "index.scss",
+  "version": "0.1.0",
+  "dependencies": {},
+  "styles": [
+    "index.scss"
+  ],
+  "files": [
+    "local/blocks/images/bg-grey-stripes.png",
+    "local/blocks/images/transparent-grey-stripes.png"
+  ]
+}
