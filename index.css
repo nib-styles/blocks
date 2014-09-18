@@ -78,9 +78,13 @@
 }
 
 .block-9 {
-  background-color: #5c5c5c;
-  background-image: url("images/transparent-grey-stripes.png"), radial-gradient(at top, rgba(124, 124, 124, 0.7) 0, #5f5f5f 60%);
-  border-top: 1px solid #999;
+    background-color: #5c5c5c;
+    border-top: 1px solid #999;
+}
+
+.mediaqueries .block-9 {
+    /* there is a backup background image above, this wasn't working in IE7,8 previously anyway. */
+    background-image: url("images/transparent-grey-stripes.png"), radial-gradient(at top, rgba(124, 124, 124, 0.7) 0, #5f5f5f 60%);
 }
 
 .block__border-dashed,
